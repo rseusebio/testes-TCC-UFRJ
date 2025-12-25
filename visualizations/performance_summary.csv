@@ -1,0 +1,9 @@
+Protocol,Test Scenario,Throughput (req/s),Avg Duration (ms),P95 Duration (ms),Serialize Latency (ms),Deserialize Latency (ms),CPU Utilization (%),Memory Utilization (%)
+GRPC,Average Load,17.73,1304.60,1523.61,0.204,0.190,44.73,18.15
+GRPC,High Load,56.53,1910.06,2452.21,0.503,0.258,86.70,20.77
+GRPC,Breakpoint,45.76,4204.48,9663.25,0.474,0.363,71.95,23.14
+GRPC,Spike,36.12,6165.05,12271.34,0.547,0.432,34.12,20.98
+REST,Average Load,18.38,1510.17,1769.65,0.316,3.946,41.95,13.45
+REST,High Load,51.02,2626.60,3218.20,0.833,0.869,91.23,20.91
+REST,Breakpoint,43.07,9393.95,17516.14,0.856,1.351,73.08,25.68
+REST,Spike,36.33,12038.10,16936.84,1.044,0.871,47.38,22.79
